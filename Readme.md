@@ -2,7 +2,7 @@ House Price Prediction
 DATASET: The Boston Housing Dataset is a derived from information collected by the U.S. Census Service concerning housing in the area of Boston MA. 
 The following describes the dataset columns:
 
-CRIM - per capita crime rate by town /n
+CRIM - per capita crime rate by town 
 ZN - proportion of residential land zoned for lots over 25,000 sq.ft.
 INDUS - proportion of non-retail business acres per town.
 CHAS - Charles River dummy variable (1 if tract bounds river; 0 otherwise)
@@ -17,7 +17,7 @@ B - 1000(Bk - 0.63)^2 where Bk is the proportion of blacks by town
 LSTAT - % lower status of the population
 MEDV - Median value of owner-occupied homes in $1000's
 
-METHOD The data has been viewed as a regression problem and the following algorithims have been employed.
+METHOD The data has been viewed as a regression problem and the following algorithims have been employed :
 
 -Linear Regression
 -Decision Tree
@@ -27,7 +27,7 @@ METHOD The data has been viewed as a regression problem and the following algori
 
 CONCLUSIONS
 
-Inflation has been taken into account the prices of houses have been adjusted. - Of all the imputation methods, knn works the best method for this dataset, hence it has been used for imputation.
-
+Inflation has been taken into account the prices of houses have been adjusted. 
+Of all the imputation methods, knn works the best method for this dataset, hence it has been used for imputation.
 Using feature engineering the number of features were reduced to three namely, PTRATIO, LSTAT, and RM
 XGBoost performs the best in making predictions with an RMSE error of 15.5 and R2 error of 79.4.
